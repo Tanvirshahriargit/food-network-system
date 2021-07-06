@@ -1,0 +1,77 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+h1{
+    font-size: 60px;
+    font-weight: 1000;
+    color: #464646;
+}
+.blue-color{
+    color: #2323df;
+}
+.flexiable{
+    display: flex;
+    margin-bottom: 100px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+    color: white;
+    padding: 20px 30px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 40px gray;
+    display: inline-block;
+    margin-top: 30px;
+    
+}
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+}
+.image-size{
+    width: 100%;
+}
+.bg-banner{
+    background-image: url(images/background-banner.png);
+    background-repeat: no-repeat;
+    margin: 0;  
+}
+#about-me{
+    padding-top: 10%;
+}
+.my-recipe{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 50px;
+    
+}
+.recipe-itmes{
+    padding: 1%;
+    box-shadow: 0px 0px 40px #c5c4c4;
+    border-radius: 35px;
+    width: 300px;
+    height: 450px;
+    margin-left: 80px;
+    
+}
+.recipe-itmes img{
+    width: 300px;
+    height: 256px;
+    margin-bottom: 20px;
+}
+.background-image-app{
+    background-image: url(images/app-banner.png);
+    background-repeat: no-repeat;
+    
+}
+footer{
+    background-color: rgb(53, 52, 52);
+    width: 100%;
+    height: 200px;
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+    margin: 0;
+}
